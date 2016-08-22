@@ -1,13 +1,13 @@
 # icub-moveit
 
-URDF iCub model ready for MoveIt! in ROS Hydro
+URDF iCub model ready for MoveIt! in ROS Kinetic
 
 ## Environment
 
 All the functionality was tested on machines configured with:
 
-+ Ubuntu 12.04 LTS
-+ ROS Hydro (install it [here](http://wiki.ros.org/hydro/Installation/Ubuntu))
++ Ubuntu 16.04 LTS
++ ROS Kinetic
 
 ## Download and Setup
 
@@ -15,49 +15,32 @@ Open a terminal and navigate to the folder where you want to download the packag
 
 Now, run:
 
-    git clone https://github.com/vislab-tecnico-lisboa/icub-moveit.git
+    git clone https://github.com/bmagyar/icub-moveit.git
 
-After completing the download, you need to add the new folder to the $ROS_PACKAGE_PATH, run:
+__While MoveIt! hasn't been released to Kinetic, add these to the compilation too__
 
-    sudo gedit ~/.bashrc
+    git clone https://github.com/ros-planning/geometric_shapes.git
+    git clone https://github.com/ros-planning/moveit.git
 
-At the end of the file, add the following line:
+Now run this in your `src` folder to install dependencies:
 
-    export ROS_PACKAGE_PATH=[Path to the downloaded folder]:$ROS_PACKAGE_PATH
-    
-Save the file and run:
+    rosdep install --from-paths . --ignore-src --rosdistro kinetic
 
-    source ~/.bashrc
+Finally source the environment:
+
+    source devel/setup.bash
 
 ## Compilation
 
-Note that you may get some errors while compiling saying that you do not have some dependencies (from other ROS packages) installed. In that case, you will need to find what packages you are missing and then install them. For example, I got this message:
+    catkin build
 
-    [rospack] Error: package/stack 'icub_controller_interface' depends on non-existent package 'robot_mechanism_controllers' and rosdep claims that it is not a system dependency. Check the ROS_PACKAGE_PATH or try calling 'rosdep update'
+or
 
-To solve this I have installed this package:
-
-    sudo apt-get install ros-hydro-robot-mechanism-controllers
-
-Before running the modules for the first time complete the following instructions to compile the packages:
-
-    rosmake yarp_msgs bond_core
-    rosmake icub_ros
-    rosmake icub_description
-    rosmake icub_controller_interface
-    rosmake icub_moveit
+    catkin_make
 
 ## Running
 
-At this point everything is set to successfuly run the modules. Although, you might need to install some missing ROS packages, for example, in my case, while installing ROS Hydro I have missed MoveIt! instalation so I had to install it this way:
-
-    sudo apt-get install ros-hydro-moveit-*
-
-Now, everything should work smoothly. Open a terminal, and run:
-
-    roscore
-
-Open another terminal, and run:
+Standard MoveIt demo:
 
     roslaunch icub_moveit demo.launch
 
