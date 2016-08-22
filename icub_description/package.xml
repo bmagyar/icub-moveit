@@ -1,0 +1,13 @@
+<package>
+  <name>icub_description</name>
+  <version>0.0.0</version>
+  <description>icub_description</description>
+  <maintainer email="dunno@dunno.com">Filipe Veiga</maintainer>
+  <author email="dunno@dunno.com">Filipe Veiga</author>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
+
+

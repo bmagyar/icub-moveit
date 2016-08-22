@@ -1,0 +1,21 @@
+<package>
+  <name>icub_ros</name>
+  <version>0.0.0</version>
+  <description>icub_ros</description>
+  <maintainer email="ruihortafigueiredo@gmail.com">Rui Figueiredo</maintainer>
+  <author email="ruihortafigueiredo@gmail.com">Rui Figueiredo</author>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>yarp_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>yarp_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+
+</package>
+
+
