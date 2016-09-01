@@ -1,15 +1,16 @@
 Panels:
   - Class: rviz/Displays
-    Help Height: 84
+    Help Height: 0
     Name: Displays
     Property Tree Widget:
       Expanded:
         - /Global Options1
         - /Status1
-        - /Grid1
         - /MotionPlanning1
-      Splitter Ratio: 0.74256
-    Tree Height: 136
+        - /MotionPlanning1/Planning Request1
+        - /MotionPlanning1/Planned Path1
+      Splitter Ratio: 0.742560029
+    Tree Height: 245
   - Class: rviz/Help
     Name: Help
   - Class: rviz/Views
@@ -26,7 +27,7 @@ Visualization Manager:
       Color: 160; 160; 164
       Enabled: true
       Line Style:
-        Line Width: 0.03
+        Line Width: 0.0299999993
         Value: Lines
       Name: Grid
       Normal Cell Count: 0
@@ -36,17 +37,29 @@ Visualization Manager:
         Z: 0
       Plane: XY
       Plane Cell Count: 10
-      Reference Frame: /base_link
+      Reference Frame: base_link
       Value: true
     - Class: moveit_rviz_plugin/MotionPlanning
       Enabled: true
+      Move Group Namespace: ""
       MoveIt_Goal_Tolerance: 0
+      MoveIt_Planning_Attempts: 10
       MoveIt_Planning_Time: 5
       MoveIt_Use_Constraint_Aware_IK: true
       MoveIt_Warehouse_Host: 127.0.0.1
       MoveIt_Warehouse_Port: 33829
+      MoveIt_Workspace:
+        Center:
+          X: 0
+          Y: 0
+          Z: 0
+        Size:
+          X: 2
+          Y: 2
+          Z: 2
       Name: MotionPlanning
       Planned Path:
+        Interrupt Display: false
         Links:
           All Links Enabled: true
           Expand Joint Details: false
@@ -116,7 +129,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           l7:
             Alpha: 1
             Show Axes: false
@@ -531,25 +543,25 @@ Visualization Manager:
         Show Manipulability: false
         Show Manipulability Index: false
         Show Weight Limit: false
-        TextHeight: 0.08
+        TextHeight: 0.0799999982
       Planning Request:
         Colliding Link Color: 255; 0; 0
         Goal State Alpha: 1
         Goal State Color: 250; 128; 0
         Interactive Marker Size: 0
         Joint Violation Color: 255; 0; 255
-        Planning Group: right_arm
+        Planning Group: left_arm
         Query Goal State: true
-        Query Start State: true
+        Query Start State: false
         Show Workspace: false
         Start State Alpha: 1
         Start State Color: 0; 255; 0
       Planning Scene Topic: /move_group/monitored_planning_scene
       Robot Description: robot_description
       Scene Geometry:
-        Scene Alpha: 0.9
+        Scene Alpha: 0.899999976
         Scene Color: 50; 230; 50
-        Scene Display Time: 0.2
+        Scene Display Time: 0.200000003
         Show Scene Geometry: true
         Voxel Coloring: Z-Axis
         Voxel Rendering: Occupied Voxels
@@ -624,7 +636,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           l7:
             Alpha: 1
             Show Axes: false
@@ -1027,7 +1038,8 @@ Visualization Manager:
             Show Trail: false
             Value: true
         Robot Alpha: 0.5
-        Show Scene Robot: true
+        Show Robot Collision: false
+        Show Robot Visual: true
       Value: true
     - Alpha: 0.5
       Cell Size: 1
@@ -1035,7 +1047,7 @@ Visualization Manager:
       Color: 160; 160; 164
       Enabled: true
       Line Style:
-        Line Width: 0.03
+        Line Width: 0.0299999993
         Value: Lines
       Name: Grid
       Normal Cell Count: 0
@@ -1047,10 +1059,93 @@ Visualization Manager:
       Plane Cell Count: 10
       Reference Frame: <Fixed Frame>
       Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+        base_link:
+          Value: true
+        il0:
+          Value: true
+        indexbase:
+          Value: true
+        l0:
+          Value: true
+        l4:
+          Value: true
+        la0:
+          Value: true
+        lail0:
+          Value: true
+        left_palm:
+          Value: true
+        lil0:
+          Value: true
+        lindexbase:
+          Value: true
+        littlebase:
+          Value: true
+        ll0:
+          Value: true
+        llil0:
+          Value: true
+        llittlebase:
+          Value: true
+        lmiddlebase:
+          Value: true
+        lml0:
+          Value: true
+        lril0:
+          Value: true
+        lringbase:
+          Value: true
+        lthumbbase:
+          Value: true
+        ltl0:
+          Value: true
+        ltl1:
+          Value: true
+        middlebase:
+          Value: true
+        ml0:
+          Value: true
+        ra0:
+          Value: true
+        right_palm:
+          Value: true
+        ril0:
+          Value: true
+        ringbase:
+          Value: true
+        rl0:
+          Value: true
+        thumbbase:
+          Value: true
+        tl0:
+          Value: true
+        tl1:
+          Value: true
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        base_link:
+          l0:
+            {}
+          ll0:
+            {}
+          rl0:
+            {}
+      Update Interval: 0
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 170; 255; 255
-    Fixed Frame: /base_link
+    Fixed Frame: base_link
+    Frame Rate: 30
   Name: root
   Tools:
     - Class: rviz/Interact
@@ -1060,31 +1155,36 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 1.24331
+      Distance: 1.17734694
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.0599999987
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
       Focal Point:
-        X: 0
-        Y: 0
-        Z: 0
+        X: -0.463665724
+        Y: 0.764755726
+        Z: 6.06145306e-07
       Name: Current View
-      Near Clip Distance: 0.01
-      Pitch: 0.4748
-      Target Frame: /base_link
+      Near Clip Distance: 0.00999999978
+      Pitch: 0.139798731
+      Target Frame: base_link
       Value: XYOrbit (rviz)
-      Yaw: 0.265401
+      Yaw: 1.94225454
     Saved: ~
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 744
+  Height: 1056
   Help:
     collapsed: false
   Hide Left Dock: false
   Hide Right Dock: false
   Motion Planning:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000002a2000002a2fc0200000005fb000000100044006900730070006c00610079007301000000280000011d000000dd00fffffffb0000000800480065006c00700000000342000000bb0000007600fffffffb0000000a0056006900650077007300000003b0000000b0000000b000fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e0067010000014b0000017f0000017400ffffff0000026d000002a200000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000100000000000002a2000003bffc0200000005fb000000100044006900730070006c006100790073010000004300000136000000e300fffffffb0000000800480065006c00700000000342000000bb0000007900fffffffb0000000a0056006900650077007300000003b0000000b0000000b300fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e0067010000017f00000283000001cc00ffffff000004d6000003bf00000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
-  Width: 1301
-  X: 58
-  Y: 24
+  Width: 1918
+  X: 1920
+  Y: 580
