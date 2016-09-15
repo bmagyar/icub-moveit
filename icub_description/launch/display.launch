@@ -13,6 +13,10 @@
   <param
     name="use_gui"
     value="$(arg gui)" />
+  
+  <param
+    name="num_rows"
+    value="16" />
 
   <node
     name="joint_state_publisher"
