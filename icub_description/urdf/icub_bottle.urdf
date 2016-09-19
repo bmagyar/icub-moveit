@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<robot name="ICub" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+   <xacro:include filename="$(find icub_description)/urdf/iCub.urdf"/>
+
+   <joint name="bottle_joint" type="fixed">
+      <parent link="left_palm"/>
+      <child link="bottle_base"/>
+      <origin rpy="0 0 0" xyz="-0.085 0.1 0.05"/>
+   </joint>
+
+   <link name="bottle_base">
+      <visual>
+      <origin rpy="1.57 0 0" xyz="0 0 0"/>
+         <geometry>
+           <mesh filename="package://icub_description/meshes/bottle/bottle.dae"/>
+         </geometry>
+      </visual>
+   </link>
+
+</robot>
