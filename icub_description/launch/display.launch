@@ -1,37 +1,24 @@
 <?xml version="1.0"?>
 <launch>
   <!-- Argument for graphical interface usage -->
-  <arg
-    name="gui"
-    default="True" />
+  <arg name="gui" default="True" />
+
+  <arg name="robot" default="paris1" />
 
   <!-- Load the URDF into the ROS Parameter Server -->
-  <param name="robot_description"
-		command="$(find xacro)/xacro.py $(find icub_description)/urdf/icub_paris1.urdf" />
+  <param name="robot_description"	command="$(find xacro)/xacro.py $(find icub_description)/urdf/icub_$(arg robot).urdf" />
 	 
   <!-- Use graphical interface to set the joints positions --> 
-  <param
-    name="use_gui"
-    value="$(arg gui)" />
-  
-  <param
-    name="num_rows"
-    value="16" />
+  <param name="use_gui" value="$(arg gui)" />
 
-  <node
-    name="joint_state_publisher"
-    pkg="joint_state_publisher"
-    type="joint_state_publisher" />
+  <param name="num_rows" value="16" />
 
-  <node
-    name="robot_state_publisher"
-    pkg="robot_state_publisher"
-    type="state_publisher" />
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+
+  <node name="static_base_footprint_publisher" pkg="tf" type="static_transform_publisher" args="0 0 -0.6 0 0 0 base_link base_footprint 300"/>
 
   <!-- Launch rviz node for visualization -->
-  <node
-    name="rviz"
-    pkg="rviz"
-    type="rviz"
-    args="-d $(find icub_description)/rviz/display_urdf.rviz" /> 
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find icub_description)/rviz/display_urdf.rviz" /> 
 </launch>
