@@ -5,11 +5,10 @@
     <arg name="load_robot_description" value="true"/>
   </include>
 
-  <!--<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">-->
-    <!--<param name="/use_gui" value="false"/>-->
-    <!--<rosparam param="source_list">[right_arm/joint_states,left_arm_joints_states]</rosparam>-->
-  <!--</node>-->
-  
+  <param name="use_gui" value="True" />
+  <param name="num_rows" value="16" />
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen" />
 
   <include file="$(find icub_moveit)/launch/move_group.launch">
@@ -20,5 +19,8 @@
   <include file="$(find icub_moveit)/launch/moveit_rviz.launch">
     <arg name="config" value="true"/>
   </include>
+
+  <!-- Static transform to display robot on ground -->
+  <node name="static_base_footprint_publisher" pkg="tf" type="static_transform_publisher" args="0 0 -0.6 0 0 0 base_link base_footprint 300"/>
 
 </launch>
