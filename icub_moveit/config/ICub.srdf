@@ -35,15 +35,6 @@
         <joint name="laj6" />
         <joint name="left_wrist_yaw" />
     </group>
-    <group name="head">
-        <joint name="j4" />
-        <joint name="j5" />
-        <joint name="j6" />
-        <joint name="j7" />
-        <joint name="j8" />
-        <joint name="j7s" />
-        <joint name="j8s" />
-    </group>
     
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
     <virtual_joint name="world_joint" type="fixed" parent_frame="world" child_link="base_link" />
@@ -1844,4 +1835,5 @@
     <disable_collisions link1="tl2" link2="tl3" reason="Adjacent" />
     <disable_collisions link1="tl2" link2="tl4" reason="Never" />
     <disable_collisions link1="tl3" link2="tl4" reason="Adjacent" />
+    <disable_collisions link1="bottle_base" link2="ra5" reason="Never" />
 </robot>
