@@ -14,13 +14,15 @@
   <arg name="jiggle_fraction" default="0.05" />
   <arg name="publish_monitored_planning_scene" default="true"/>
   <arg name="pipeline" default="ompl"/>
+  <arg name="fake_execution" default="false"/>
 
   <include ns="move_group" file="$(find icub_moveit)/launch/planning_pipeline.launch">
     <arg name="pipeline" value="$(arg pipeline)" />
   </include>
 
   <include ns="move_group" file="$(find icub_moveit)/launch/trajectory_execution.launch" if="$(arg allow_trajectory_execution)">
-    <arg name="moveit_controller_manager" value="ICub" /> 
+    <arg name="moveit_controller_manager" value="ICub" unless="$(arg fake_execution)"/>
+    <arg name="moveit_controller_manager" value="fake" if="$(arg fake_execution)"/>
     <arg name="moveit_manage_controllers" value="true" />
   </include>
 

@@ -1,5 +1,4 @@
 <launch>
-  <param name="ola2" value="estou aquiii"/>
   <!-- This file makes it easy to include the settings for trajectory execution  -->  
 
   <!-- Flag indicating whether MoveIt! is allowed to load/unload  or switch controllers -->

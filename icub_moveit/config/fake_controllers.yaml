@@ -1,0 +1,19 @@
+controller_list:
+  - name: fake_right_arm_controller
+    joints:
+      - raj1
+      - raj2
+      - raj3
+      - raj4
+      - raj5
+      - raj6
+      - right_wrist_yaw
+  - name: fake_left_arm_controller
+    joints:
+      - laj1
+      - laj2
+      - laj3
+      - laj4
+      - laj5
+      - laj6
+      - left_wrist_yaw
