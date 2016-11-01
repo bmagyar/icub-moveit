@@ -8,7 +8,10 @@
     <visual>
       <origin xyz="-0.0364 0 0.032" rpy="1.57079632679 0 -1.57079632679"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_root_link_prt.dae" scale="0.001 0.001 0.001"/>
+      <!--
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/root_link.dae" scale="0.001 0.001 0.001"/>
+        -->
+        <box size="0.01 0.01 0.01"/>
       </geometry>
       <material name="green">
         <color rgba="0 1 0 1"/>
@@ -17,7 +20,10 @@
     <collision>
       <origin xyz="-0.0364 0 0.032" rpy="1.57079632679 0 -1.57079632679"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_root_link_prt.dae" scale="0.001 0.001 0.001"/>
+      <!--
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/root_link.dae" scale="0.001 0.001 0.001"/>
+        -->
+        <box size="0.01 0.01 0.01"/>
       </geometry>
     </collision>
   </link>
@@ -44,7 +50,7 @@
     <visual>
       <origin xyz="0.0233655 0.151913 0.0428515000001" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_hip_1_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_hip_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="black">
         <color rgba="0 0 0 1"/>
@@ -53,7 +59,7 @@
     <collision>
       <origin xyz="0.0233655 0.151913 0.0428515000001" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_hip_1_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_hip_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -74,7 +80,7 @@
     <visual>
       <origin xyz="0.0701 0.151913 0.0691961998093" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_hip_2_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_hip_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -83,7 +89,7 @@
     <collision>
       <origin xyz="0.0701 0.151913 0.0691961998093" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_hip_2_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_hip_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -117,7 +123,7 @@
     <visual>
       <origin xyz="0.0700999999999 0.241013 0.0437089998093" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_thigh_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_upper_leg.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="blue">
         <color rgba="0 0 1 1"/>
@@ -126,7 +132,7 @@
     <collision>
       <origin xyz="0.0700999999999 0.241013 0.0437089998093" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_thigh_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_upper_leg.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -224,7 +230,7 @@
     <visual>
       <origin xyz="0.0462961001907 0.386638 0.0437089998095" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_shank_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_lower_leg.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="yellow">
         <color rgba="1 1 0 1"/>
@@ -233,7 +239,7 @@
     <collision>
       <origin xyz="0.0462961001907 0.386638 0.0437089998095" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_shank_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_lower_leg.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -296,7 +302,7 @@
     <visual>
       <origin xyz="0.105600000191 0.587138 0.0437089998095" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_ankle_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_ankle_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="pink">
         <color rgba="1 0 1 1"/>
@@ -305,7 +311,7 @@
     <collision>
       <origin xyz="0.105600000191 0.587138 0.0437089998095" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_ankle_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_ankle_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -326,7 +332,7 @@
     <visual>
       <origin xyz="0.0701000001907 0.587138 0.0622089996187" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_foot_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_ankle_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="cyan">
         <color rgba="0 1 1 1"/>
@@ -335,7 +341,7 @@
     <collision>
       <origin xyz="0.0701000001907 0.587138 0.0622089996187" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_foot_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_ankle_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -356,14 +362,14 @@
     <visual>
       <origin xyz="0.0472089996187 -0.0701000001907 -0.647438" rpy="-1.57079632679 0 -1.57079632679"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_sole_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_foot.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="green"/>
     </visual>
     <collision>
       <origin xyz="0.0472089996187 -0.0701000001907 -0.647438" rpy="-1.57079632679 0 -1.57079632679"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_sole_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_foot.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -403,7 +409,7 @@
     <visual>
       <origin xyz="-0.0223861 0.151913 0.0428515000001" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_hip_1_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_hip_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="white">
         <color rgba="1 1 1 1"/>
@@ -412,7 +418,7 @@
     <collision>
       <origin xyz="-0.0223861 0.151913 0.0428515000001" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_hip_1_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_hip_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -433,7 +439,7 @@
     <visual>
       <origin xyz="-0.0701 0.151913 0.0683914998093" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_hip_2_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_hip_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="dblue">
         <color rgba="0 0 0.8 1"/>
@@ -442,7 +448,7 @@
     <collision>
       <origin xyz="-0.0701 0.151913 0.0683914998093" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_hip_2_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_hip_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -476,7 +482,7 @@
     <visual>
       <origin xyz="-0.0701 0.241013 0.043409" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_thigh_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_upper_leg.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="dgreen">
         <color rgba="0.1 0.8 0.1 1"/>
@@ -485,7 +491,7 @@
     <collision>
       <origin xyz="-0.0701 0.241013 0.043409" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_thigh_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_upper_leg.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -583,7 +589,7 @@
     <visual>
       <origin xyz="-0.0463168001907 0.386638 0.043409" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_shank_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_lower_leg.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="gray">
         <color rgba="0.5 0.5 0.5 1"/>
@@ -592,7 +598,7 @@
     <collision>
       <origin xyz="-0.0463168001907 0.386638 0.043409" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_shank_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_lower_leg.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -655,14 +661,14 @@
     <visual>
       <origin xyz="-0.105600000191 0.587138 0.043409" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_ankle_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_ankle_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="green"/>
     </visual>
     <collision>
       <origin xyz="-0.105600000191 0.587138 0.043409" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_ankle_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_ankle_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -683,14 +689,14 @@
     <visual>
       <origin xyz="-0.0701000001907 0.587138 -0.00467855" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_foot_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_ankle_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="black"/>
     </visual>
     <collision>
       <origin xyz="-0.0701000001907 0.587138 -0.00467855" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_foot_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_ankle_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -711,14 +717,14 @@
     <visual>
       <origin xyz="0.0472089996187 0.0701000001907 -0.647438" rpy="-1.57079632679 0 -1.57079632679"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_sole_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_foot.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="red"/>
     </visual>
     <collision>
       <origin xyz="0.0472089996187 0.0701000001907 -0.647438" rpy="-1.57079632679 0 -1.57079632679"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_sole_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_foot.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -758,14 +764,14 @@
     <visual>
       <origin xyz="0.0270462998093 0.032 0.0364" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_lap_belt_1_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/torso_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="blue"/>
     </visual>
     <collision>
       <origin xyz="0.0270462998093 0.032 0.0364" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_lap_belt_1_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/torso_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -801,14 +807,14 @@
     <visual>
       <origin xyz="0 0.0928 -0.0241889" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_chest_bb_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/chest.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="yellow"/>
     </visual>
     <collision>
       <origin xyz="0 0.0928 -0.0241889" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_chest_bb_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/chest.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -913,14 +919,14 @@
     <visual>
       <origin xyz="0.0990078953076 0 -0.0265293007173" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_shoulder_1_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_shoulder_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="pink"/>
     </visual>
     <collision>
       <origin xyz="0.0990078953076 0 -0.0265293007173" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_shoulder_1_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_shoulder_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -941,14 +947,14 @@
     <visual>
       <origin xyz="0.106587808568 2.31914715418e-07 -0.0407392121175" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_shoulder_2_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_shoulder_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="cyan"/>
     </visual>
     <collision>
       <origin xyz="0.106587808568 2.31914715418e-07 -0.0407392121175" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_shoulder_2_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_shoulder_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -969,14 +975,14 @@
     <visual>
       <origin xyz="0.131933879164 0 -0.0353515667647" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_upper_arm_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_shoulder_3.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="green"/>
     </visual>
     <collision>
       <origin xyz="0.131933879164 0 -0.0353515667647" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_upper_arm_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_shoulder_3.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -997,14 +1003,14 @@
     <visual>
       <origin xyz="-0.015 0 -0.1933" rpy="0 1.30899700697 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_elbow_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_upper_arm.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <origin xyz="-0.015 0 -0.1933" rpy="0 1.30899700697 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_elbow_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_upper_arm.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1051,14 +1057,14 @@
     <visual>
       <origin xyz="0.259390463317 0.0224999 -0.0850325886962" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_elbow_prosup_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_elbow_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="dblue"/>
     </visual>
     <collision>
       <origin xyz="0.259390463317 0.0224999 -0.0850325886962" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_elbow_prosup_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_elbow_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1079,14 +1085,14 @@
     <visual>
       <origin xyz="0.297852893219 0 -0.0798094205022" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_forearm_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/visual/icub_r_forearm.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="dgreen"/>
     </visual>
     <collision>
       <origin xyz="0.297852893219 0 -0.0798094205022" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_forearm_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/visual/icub_r_forearm.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1104,19 +1110,21 @@
       <mass value="0.0362615"/>
       <inertia ixx="5.57722e-06" ixy="-3.10462e-08" ixz="-9.44554e-07" iyy="5.29845e-06" iyz="-1.59685e-07" izz="1.87724e-06"/>
     </inertial>
+<!--
     <visual>
       <origin xyz="0.400392176248 -7.00000000009e-06 -0.104748304516" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_wrist_pitch_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_wrist_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0.400392176248 -7.00000000009e-06 -0.104748304516" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_wrist_pitch_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/r_wrist_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
+-->
   </link>
   <joint name="r_wrist_pitch" type="revolute">
     <origin xyz="-0.102539283029 7.00000000002e-06 0.0249388840141" rpy="0 0 0"/>
@@ -1135,14 +1143,14 @@
     <visual>
       <origin xyz="0.399758069749 0.0194929 -0.107114822834" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_hand_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/visual/icub_r_hand.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="green"/>
     </visual>
     <collision>
       <origin xyz="0.399758069749 0.0194929 -0.107114822834" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_r_hand_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/visual/icub_r_hand.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1170,14 +1178,14 @@
     <visual>
       <origin xyz="-0.120257482 0 -0.032223" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_shoulder_1_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_shoulder_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="black"/>
     </visual>
     <collision>
       <origin xyz="-0.120257482 0 -0.032223" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_shoulder_1_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_shoulder_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1198,14 +1206,14 @@
     <visual>
       <origin xyz="-0.106586716581 1.3668283029e-07 -0.0407432874697" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_shoulder_2_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_shoulder_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="red"/>
     </visual>
     <collision>
       <origin xyz="-0.106586716581 1.3668283029e-07 -0.0407432874697" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_shoulder_2_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_shoulder_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1226,14 +1234,14 @@
     <visual>
       <origin xyz="-0.131901037685 0 -0.0353427669194" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_upper_arm_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_shoulder_3.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="blue"/>
     </visual>
     <collision>
       <origin xyz="-0.131901037685 0 -0.0353427669194" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_upper_arm_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_shoulder_3.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1254,14 +1262,14 @@
     <visual>
       <origin xyz="-0.015 0 -0.1933" rpy="0 -1.30899700697 -3.14159265359"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_elbow_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_upper_arm.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="yellow"/>
     </visual>
     <collision>
       <origin xyz="-0.015 0 -0.1933" rpy="0 -1.30899700697 -3.14159265359"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_elbow_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_upper_arm.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1308,14 +1316,14 @@
     <visual>
       <origin xyz="-0.259390463317 0.0339999 -0.0850325886962" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_elbow_prosup_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_elbow_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="pink"/>
     </visual>
     <collision>
       <origin xyz="-0.259390463317 0.0339999 -0.0850325886962" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_elbow_prosup_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_elbow_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1336,14 +1344,14 @@
     <visual>
       <origin xyz="-0.297852893219 0 -0.0798094205022" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_forearm_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/visual/icub_l_forearm.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="cyan"/>
     </visual>
     <collision>
       <origin xyz="-0.297852893219 0 -0.0798094205022" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_forearm_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/visual/icub_l_forearm.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1361,19 +1369,21 @@
       <mass value="0.0362152"/>
       <inertia ixx="5.56774e-06" ixy="3.08362e-08" ixz="9.42153e-07" iyy="5.28838e-06" iyz="-1.58924e-07" izz="1.87579e-06"/>
     </inertial>
+<!--
     <visual>
       <origin xyz="-0.391711530028 -7.00000000009e-06 -0.137144926061" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_wrist_pitch_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_wrist_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="green"/>
     </visual>
     <collision>
       <origin xyz="-0.391711530028 -7.00000000009e-06 -0.137144926061" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_wrist_pitch_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/l_wrist_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
+-->
   </link>
   <joint name="l_wrist_pitch" type="revolute">
     <origin xyz="0.0938586368089 7.00000000002e-06 0.0573355055587" rpy="0 0 0"/>
@@ -1392,14 +1402,14 @@
     <visual>
       <origin xyz="-0.399680424055 0.0194929 -0.107404600587" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_hand_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/visual/icub_l_hand.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <origin xyz="-0.399680424055 0.0194929 -0.107404600587" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_l_hand_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/visual/icub_l_hand.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1427,14 +1437,14 @@
     <visual>
       <origin xyz="0.0142999998093 -0.079997 -0.0295007" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_neck_1_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/neck_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="dblue"/>
     </visual>
     <collision>
       <origin xyz="0.0142999998093 -0.079997 -0.0295007" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_neck_1_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/neck_1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1455,14 +1465,14 @@
     <visual>
       <origin xyz="0 -0.089497 -0.05030071" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_neck_2_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/neck_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="dgreen"/>
     </visual>
     <collision>
       <origin xyz="0 -0.089497 -0.05030071" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_neck_2_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/neck_2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1483,14 +1493,14 @@
     <visual>
       <origin xyz="0 -0.067153 -0.0295007" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_head_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/head.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 -0.067153 -0.0295007" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="model://iCubGenova02/meshes/dae/sim_sea_2-5_head_prt.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/head.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
