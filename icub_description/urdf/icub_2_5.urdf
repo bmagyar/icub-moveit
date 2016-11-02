@@ -8,9 +8,7 @@
     <visual>
       <origin xyz="-0.0364 0 0.032" rpy="1.57079632679 0 -1.57079632679"/>
       <geometry>
-      <!--
-        <mesh filename="package://icub_description/meshes/icub2_5/visual/root_link.dae" scale="0.001 0.001 0.001"/>
-        -->
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/root.dae" scale="0.001 0.001 0.001"/>
         <box size="0.01 0.01 0.01"/>
       </geometry>
       <material name="green">
@@ -20,9 +18,7 @@
     <collision>
       <origin xyz="-0.0364 0 0.032" rpy="1.57079632679 0 -1.57079632679"/>
       <geometry>
-      <!--
-        <mesh filename="package://icub_description/meshes/icub2_5/visual/root_link.dae" scale="0.001 0.001 0.001"/>
-        -->
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/root.dae" scale="0.001 0.001 0.001"/>
         <box size="0.01 0.01 0.01"/>
       </geometry>
     </collision>
