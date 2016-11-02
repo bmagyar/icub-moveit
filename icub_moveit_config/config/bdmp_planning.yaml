@@ -1,0 +1,11 @@
+bdmp/right_arm:
+  group_name: right_arm
+  check_for_collisions: False
+  dmp_sampling_rate: 50
+
+bdmp/left_arm:
+  group_name: left_arm
+  check_for_collisions: False
+  dmp_sampling_rate: 50
+
+
