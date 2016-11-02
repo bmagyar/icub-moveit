@@ -807,14 +807,14 @@
     <visual>
       <origin xyz="0 0.0928 -0.0241889" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://icub_description/meshes/icub2_5/visual/chest.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/bb_chest.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="yellow"/>
     </visual>
     <collision>
       <origin xyz="0 0.0928 -0.0241889" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://icub_description/meshes/icub2_5/visual/chest.dae" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://icub_description/meshes/icub2_5/visual/bb_chest.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
