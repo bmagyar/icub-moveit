@@ -1,0 +1,1086 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 84
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /MotionPlanning1
+        - /MotionPlanning1/Planning Request1
+      Splitter Ratio: 0.742560029
+    Tree Height: 428
+  - Class: rviz/Help
+    Name: Help
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.0299999993
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: moveit_rviz_plugin/MotionPlanning
+      Enabled: true
+      Move Group Namespace: ""
+      MoveIt_Goal_Tolerance: 0
+      MoveIt_Planning_Attempts: 10
+      MoveIt_Planning_Time: 5
+      MoveIt_Use_Constraint_Aware_IK: true
+      MoveIt_Warehouse_Host: 127.0.0.1
+      MoveIt_Warehouse_Port: 33829
+      MoveIt_Workspace:
+        Center:
+          X: 0
+          Y: 0
+          Z: 0
+        Size:
+          X: 2
+          Y: 2
+          Z: 2
+      Name: MotionPlanning
+      Planned Path:
+        Interrupt Display: false
+        Links:
+          All Links Enabled: true
+          Expand Joint Details: false
+          Expand Link Details: false
+          Expand Tree: false
+          Link Tree Style: Links in Alphabetic Order
+          base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          chest_ems_acc_eb1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_acc_eb2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_acc_eb3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_acc_eb4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_gyro_eb1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_gyro_eb2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_gyro_eb3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_gyro_eb4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_mtb_acc_0b10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_mtb_acc_0b7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_mtb_acc_0b8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_mtb_acc_0b9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          head:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          imu:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_ankle_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_ankle_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_elbow_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_foot:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_foot_dh_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_foot_mtb_acc_10b12:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_foot_mtb_acc_10b13:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_forearm:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_hand:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_hand_dh_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_hip_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_hip_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_hip_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_lower_leg:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_lower_leg_ems_acc_eb7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_lower_leg_ems_gyro_eb7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_lower_leg_mtb_acc_10b10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_lower_leg_mtb_acc_10b11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_lower_leg_mtb_acc_10b8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_lower_leg_mtb_acc_10b9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_shoulder_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_shoulder_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_shoulder_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_sole:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_arm:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_upper_arm_mtb_acc_1b10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_arm_mtb_acc_1b11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_arm_mtb_acc_1b12:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_arm_mtb_acc_1b13:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_upper_leg_ems_acc_eb10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_ems_acc_eb6:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_ems_gyro_eb10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_ems_gyro_eb6:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b6:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_wrist_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          neck_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          neck_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_ankle_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_ankle_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_elbow_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_foot:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_foot_dh_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_foot_mtb_acc_11b12:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_foot_mtb_acc_11b13:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_forearm:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_hand:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_hand_dh_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_hip_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_hip_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_hip_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_lower_leg:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_lower_leg_ems_acc_eb9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_lower_leg_ems_gyro_eb9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_lower_leg_mtb_acc_11b10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_lower_leg_mtb_acc_11b11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_lower_leg_mtb_acc_11b8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_lower_leg_mtb_acc_11b9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_shoulder_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_shoulder_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_shoulder_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_sole:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_arm:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_upper_arm_mtb_acc_2b10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_arm_mtb_acc_2b11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_arm_mtb_acc_2b12:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_arm_mtb_acc_2b13:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_upper_leg_ems_acc_eb11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_ems_acc_eb8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_ems_gyro_eb11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_ems_gyro_eb8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b6:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_wrist_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          root_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          root_link_ems_acc_eb5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          root_link_ems_gyro_eb5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          torso_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          torso_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+        Loop Animation: true
+        Robot Alpha: 0.5
+        Show Robot Collision: false
+        Show Robot Visual: true
+        Show Trail: false
+        State Display Time: 0.05 s
+        Trajectory Topic: move_group/display_planned_path
+      Planning Metrics:
+        Payload: 1
+        Show Joint Torques: false
+        Show Manipulability: false
+        Show Manipulability Index: false
+        Show Weight Limit: false
+        TextHeight: 0.0799999982
+      Planning Request:
+        Colliding Link Color: 255; 0; 0
+        Goal State Alpha: 1
+        Goal State Color: 250; 128; 0
+        Interactive Marker Size: 0
+        Joint Violation Color: 255; 0; 255
+        Planning Group: both_arms_torso
+        Query Goal State: true
+        Query Start State: false
+        Show Workspace: false
+        Start State Alpha: 1
+        Start State Color: 0; 255; 0
+      Planning Scene Topic: move_group/monitored_planning_scene
+      Robot Description: robot_description
+      Scene Geometry:
+        Scene Alpha: 1
+        Scene Color: 50; 230; 50
+        Scene Display Time: 0.200000003
+        Show Scene Geometry: true
+        Voxel Coloring: Z-Axis
+        Voxel Rendering: Occupied Voxels
+      Scene Robot:
+        Attached Body Color: 150; 50; 150
+        Links:
+          All Links Enabled: true
+          Expand Joint Details: false
+          Expand Link Details: false
+          Expand Tree: false
+          Link Tree Style: Links in Alphabetic Order
+          base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          chest_ems_acc_eb1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_acc_eb2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_acc_eb3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_acc_eb4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_gyro_eb1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_gyro_eb2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_gyro_eb3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_ems_gyro_eb4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_mtb_acc_0b10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_mtb_acc_0b7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_mtb_acc_0b8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          chest_mtb_acc_0b9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          head:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          imu:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_ankle_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_ankle_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_elbow_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_foot:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_foot_dh_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_foot_mtb_acc_10b12:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_foot_mtb_acc_10b13:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_forearm:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_hand:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_hand_dh_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_hip_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_hip_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_hip_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_lower_leg:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_lower_leg_ems_acc_eb7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_lower_leg_ems_gyro_eb7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_lower_leg_mtb_acc_10b10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_lower_leg_mtb_acc_10b11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_lower_leg_mtb_acc_10b8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_lower_leg_mtb_acc_10b9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_shoulder_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_shoulder_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_shoulder_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_sole:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_arm:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_upper_arm_mtb_acc_1b10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_arm_mtb_acc_1b11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_arm_mtb_acc_1b12:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_arm_mtb_acc_1b13:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_upper_leg_ems_acc_eb10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_ems_acc_eb6:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_ems_gyro_eb10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_ems_gyro_eb6:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b6:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_upper_leg_mtb_acc_10b7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          l_wrist_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          neck_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          neck_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_ankle_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_ankle_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_elbow_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_foot:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_foot_dh_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_foot_mtb_acc_11b12:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_foot_mtb_acc_11b13:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_forearm:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_hand:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_hand_dh_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_hip_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_hip_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_hip_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_lower_leg:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_lower_leg_ems_acc_eb9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_lower_leg_ems_gyro_eb9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_lower_leg_mtb_acc_11b10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_lower_leg_mtb_acc_11b11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_lower_leg_mtb_acc_11b8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_lower_leg_mtb_acc_11b9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_shoulder_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_shoulder_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_shoulder_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_sole:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_arm:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_upper_arm_mtb_acc_2b10:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_arm_mtb_acc_2b11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_arm_mtb_acc_2b12:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_arm_mtb_acc_2b13:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_upper_leg_ems_acc_eb11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_ems_acc_eb8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_ems_gyro_eb11:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_ems_gyro_eb8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b6:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_upper_leg_mtb_acc_11b7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          r_wrist_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          root_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          root_link_ems_acc_eb5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          root_link_ems_gyro_eb5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          torso_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          torso_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+        Robot Alpha: 0.5
+        Show Robot Collision: false
+        Show Robot Visual: true
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: base_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+  Value: true
+  Views:
+    Current:
+      Class: rviz/XYOrbit
+      Distance: 2.06626081
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.0599999987
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: -0.560292006
+        Y: -0.118833974
+        Z: 2.23517986e-07
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.0500000007
+      Name: Current View
+      Near Clip Distance: 0.00999999978
+      Pitch: 0.309796542
+      Target Frame: base_link
+      Value: XYOrbit (rviz)
+      Yaw: 2.96493864
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1151
+  Help:
+    collapsed: false
+  Hide Left Dock: false
+  Hide Right Dock: false
+  Motion Planning:
+    collapsed: false
+  QMainWindow State: 000000ff00000000fd0000000100000000000002a20000041efc0200000005fb000000100044006900730070006c006100790073010000004300000241000000e300fffffffb0000000800480065006c00700000000342000000bb0000007900fffffffb0000000a0056006900650077007300000003b0000000b0000000b300fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e0067010000028a000001d7000001cc00ffffff000004d80000041e00000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Views:
+    collapsed: false
+  Width: 1920
+  X: 0
+  Y: 25

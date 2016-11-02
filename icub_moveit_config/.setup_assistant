@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: icub_description
+    relative_path: urdf/icub_2_5.urdf
+  SRDF:
+    relative_path: config/icub.srdf
+  CONFIG:
+    author_name: Bence Magyar
+    author_email: bence.magyar.robotics@gmail.com
+    generated_timestamp: 1478087190
