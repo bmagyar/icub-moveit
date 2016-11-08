@@ -1,11 +1,35 @@
 bdmp/right_arm:
   group_name: right_arm
+  path_to_rosbags: "/home/bence/DMP-software/rosbags/icub2_5/primitives"
+  check_for_collisions: False
+  dmp_sampling_rate: 50
+
+bdmp/right_arm_torso:
+  group_name: right_arm_torso
+  path_to_rosbags: "/home/bence/DMP-software/rosbags/icub2_5/primitives"
   check_for_collisions: False
   dmp_sampling_rate: 50
 
 bdmp/left_arm:
   group_name: left_arm
+  path_to_rosbags: "/home/bence/DMP-software/rosbags/icub2_5/primitives"
   check_for_collisions: False
   dmp_sampling_rate: 50
 
+bdmp/left_arm_torso:
+  group_name: left_arm_torso
+  path_to_rosbags: "/home/bence/DMP-software/rosbags/icub2_5/primitives"
+  check_for_collisions: False
+  dmp_sampling_rate: 50
 
+bdmp/both_arms:
+  group_name: both_arms
+  path_to_rosbags: "/home/bence/DMP-software/rosbags/icub2_5/primitives"
+  check_for_collisions: False
+  dmp_sampling_rate: 50
+
+bdmp/both_arms_torso:
+  group_name: both_arms_torso
+  path_to_rosbags: "/home/bence/DMP-software/rosbags/icub2_5/primitives"
+  check_for_collisions: False
+  dmp_sampling_rate: 50
