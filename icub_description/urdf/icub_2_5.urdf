@@ -1,4 +1,4 @@
-<robot name="ICUB_2-5_BB_SIM_MODEL">
+<robot name="icub">
   <link name="root_link">
     <inertial>
       <origin xyz="0.0248821 0.000103947 -0.0440806" rpy="1.57079632679 0 -1.57079632679"/>
