@@ -1,8 +1,0 @@
-moveit_setup_assistant_config:
-  URDF:
-    package: "icub_description"
-    relative_path: urdf/iCub.urdf
-  SRDF:
-    relative_path: config/ICub.srdf
-  CONFIG:
-    generated_timestamp: 1374161218
