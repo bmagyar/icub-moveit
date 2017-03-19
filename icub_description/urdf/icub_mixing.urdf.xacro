@@ -1346,17 +1346,17 @@
   </joint>
 
   <xacro:attach_obj name="spoon" parent="left_palm">
-    <origin rpy="0 0 0" xyz="-0.085 0.1 0.05"/>
+    <origin rpy="0 0 1.57" xyz="-0.085 0 0.03"/>
     <mesh filename="package://icub_description/meshes/spoon.stl"/>
   </xacro:attach_obj>
 
   <xacro:attach_obj name="bowl" parent="right_palm">
-    <origin rpy="0 0 0" xyz="-0.085 0.1 0.05"/>
+    <origin rpy="0 0 0" xyz="-0.085 0 0.085"/>
     <mesh filename="package://icub_description/meshes/bowl.stl"/>
   </xacro:attach_obj>
 
   <xacro:attach_obj name="table" parent="base_link">
-    <origin rpy="0 0 0" xyz="-0.085 0.1 0.05"/>
+    <origin rpy="0 0 0" xyz="-0.5 0.0 -0.6"/>
     <mesh filename="package://icub_description/meshes/table.stl"/>
   </xacro:attach_obj>
 </robot>
