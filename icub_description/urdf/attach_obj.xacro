@@ -1,0 +1,21 @@
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:macro name="attach_obj" params="name parent *origin *mesh">
+
+  <joint name="${name}_joint" type="fixed">
+    <parent link="${parent}"/>
+    <child link="${name}_base"/>
+    <insert_block name="origin"/>
+  </joint>
+  <link name="${name}_base">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <insert_block name="mesh"/>
+      </geometry>
+    </visual>
+  </link>
+
+  </xacro:macro>
+
+</robot>
